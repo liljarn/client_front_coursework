@@ -19,7 +19,7 @@ const Layout = () => {
         <>
             <Header />
             <Outlet />
-            <Footer copyright={`@ ${new Date().getFullYear()} "Точка с запятой"`} view="clear" />
+            <Footer copyright={`@ ${new Date().getFullYear()} "Литературное гнездо"`} view="clear" />
             <AuthPopup />
         </>
     );
